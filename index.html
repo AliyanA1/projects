@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            margin: 50px;
+            padding: 5px 10px;
+            background-color: palegoldenrod;
+            border-radius: 5%;
+        }
+       
+    </style>
+</head>
+<body>
+    <input id="city-input" type="text" placeholder="Enter city location">
+    <button id="btn">search</button>
+
+   <div class="box">
+    <p>Country: <h3 id="city-name">city</h3> </p>
+    <br>
+    <p>Time:  <h3 id="city-time">00:00:00</h3> </p>
+    <br>
+     <p>Temparature:  <h3 id="city-temp">0C</h3></p>
+   
+   </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
